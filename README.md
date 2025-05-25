@@ -192,13 +192,21 @@ Response 201
 
 #### Index
 
-GET `/v1/posts?fields=title,category_id&expand=category&page=2`
+GET `/v1/posts?fields=title,category_id&expand=category&page=2&sort_field=title&tag_id=3&user_id=1&category_id=3`
 
 * ?fields=title,category_id
 
 * ?expand=category
 
 * ?page=2
+
+* ?sort_field=title
+
+* ?tag_id=3
+
+* ?user_id=1
+
+* ?category_id=3
 
 Response 200:
 ```JSON
